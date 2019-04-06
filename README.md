@@ -6,7 +6,7 @@ as find out more about the nature of the Kemper scholarship and the life of John
 <h3>TO-DO</h3>
 
 |Task |  WHO? | Due when?      | 
-|-----|------------------------|
+|:-----:|:------------------------:|:-----:|
 | Collect resources on scholarship  |  Inés | April 6th
 | Collect resources on Kemper's life  |  Cecilia  | April 6th
 | Design basic website layout   |  Liv  | April 8th
