@@ -1,0 +1,120 @@
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #cdcdcd;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+#main{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+footer{
+  background-color: #aaaaaa;
+  padding: 20px;
+}
+
+#header{
+  display: flex;
+  flex-direction: column;
+}
+#banner{
+  background-color: red;
+  display:flex;
+  padding: 0;
+}
+#container{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#container{
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+}
+#container li{
+  float: left;
+  padding: 0;
+  background-color: #cdcdcd;
+  width: 17%;
+  text-align: center;
+}
+#container li a{
+  display: block;
+  font-size: 18px;
+  padding: 15px;
+  text-decoration: none;
+  color: #101010;
+}
+#container li a:hover{
+  /*background-color: #aaaaaa;*/
+  text-decoration: underline;
+}
+#container li a:active{
+  background-color: green;
+}
+#content{
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
+#text{
+  display:flex;
+  flex-direction: column;
+  background-color: #FFFFF0;
+  text-align: justify;
+  line-height: 1.3em;
+  padding: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+#text h2{
+  text-align: center;
+}
+
+/* credit for navbar = https://medium.freecodecamp.org/how-to-create-a-fully-responsive-navbar-with-flexbox-a4435d175dd3 */
+@media all and (max-width: 600px) {
+
+  #container {
+    flex-wrap: wrap;
+  }
+
+  #container > li {
+    flex-basis: 50%;
+  }
+}
+@media all and (max-width: 400px) {
+  .container > li {
+    flex-basis: 100%;
+  }
+  .search {
+    order: 1;
+  }
+}
+#info {
+  width: 9%;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  top: 20%;
+  bottom: 15%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 7px 0;
+  border-left: 1px dotted grey;
+}
+
+#info a {
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+  font-size: 19px;
+  color: #232323;
+  display: block;
+}
